@@ -48,8 +48,8 @@ h3 {
 #testimonials {
     padding: 7% 15%;
     text-align: center;
-    background-color: #FEB139;
-    color:#fff;
+    background-color:#FFFBCB;
+    color:grey;
 }
 
 .carousel-item {
@@ -58,4 +58,22 @@ h3 {
 
 .carousel-img {
     float: left;
+    padding-right: 3%;
+}
+
+#events-carousel {
+    background-color: #228C7B;
+    color: #fff;
+}
+
+#cta {
+    /* background-color:#F6F3A7; */
+    padding: 3%;
+    background-color: #FF4C68;
+    color: #fff;
+}
+
+#footer {
+    padding: 2%;
+    text-align: center;
 }
