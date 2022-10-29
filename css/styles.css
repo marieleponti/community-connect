@@ -7,6 +7,32 @@ body {
     color: #fff;
 }
 
+.image-container {
+    width: 20rem;
+    margin-left: 8%;
+}
+
+.title-image {
+    border-top-left-radius: 2.9rem;
+    border-top-right-radius: 2.9rem;
+    border-bottom-left-radius: 2.9rem;
+    border-bottom-right-radius: 2.9rem;
+    transform: rotate(15deg);
+    padding: 0;
+}
+
+@media (max-width: 1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+.image-middle {
+    padding: 0rem;
+    margin: 0;
+}
+
 .container-fluid {
     padding: 3% 15%;
 }
@@ -58,7 +84,8 @@ h3 {
 
 .carousel-img {
     float: left;
-    padding-right: 3%;
+    padding: 0;
+    margin-right: 3%;
 }
 
 #events-carousel {
@@ -71,9 +98,27 @@ h3 {
     padding: 3%;
     background-color: #FF4C68;
     color: #fff;
+    text-align: center;
+}
+
+.footer-button-container {
+    margin: 0 25%;
 }
 
 #footer {
-    padding: 2%;
+    padding-top: 1%;
     text-align: center;
+}
+
+img {
+    border: black;
+    border-width: 2rem;
+}
+
+#criteria-list {
+    padding-top: 7%;
+}
+
+#criteria-navbar {
+    background-color: #FF4C68;
 }
